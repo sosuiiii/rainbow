@@ -1,0 +1,122 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: lighter;
+    height: 50px;
+    border-radius: 5px;
+}
+h1, h2, h3{
+    margin: 0;
+}
+h2{
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(300, 0, 0, 0.3);
+}
+.testa,.testb{
+    background-color: #f5f5f5;
+    opacity: 0.3;
+    
+}
+.Test:active .testa{
+    transform: translateX(-620px);
+    transition: all 0.8s;
+   
+}
+.Test:active .testb{
+    transform: translateX(620px);
+    transition: all 0.8s;
+}
+.Test:active .test0{
+    background-color: red;
+}
+.Test:active .test1{
+    transition-delay: 0.1s;
+    background-color: orange;
+}
+.Test:active .test2{
+    transition-delay: 0.2s; 
+    background-color: yellow;
+}
+.Test:active .test3{
+    transition-delay: 0.3s; 
+    background-color: green;
+}
+.Test:active .test4{
+    transition-delay: 0.4s;
+    background-color: rgb(0, 225, 255);
+}
+.Test:active .test5{
+    transition-delay: 0.5s;
+    background-color: blue;
+}
+.Test:active .test6{
+    background-color: purple;
+    transition-delay: 0.6s;
+}
+
+.Test:active .w{
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+.Test:active .r{
+    color: red;
+    transition-delay: 0.1s;
+}
+.Test:active .a{
+    color: orange;
+    transition-delay: 0.2s;
+}
+.Test:active .i{
+    color: yellow;
+    transition-delay: 0.3s;
+    
+}
+.Test:active .n{
+    color: green;
+    transition-delay: 0.4s;
+}
+.Test:active .b{
+    color: rgb(0, 225, 255);
+    transition-delay: 0.5s;
+}
+.Test:active .o{
+    color: blue;
+    transition-delay: 0.6s;
+}
+.Test:active .q{
+    color: purple;
+    transition-delay: 0.7s;  
+}
+.Test:active h2{
+    transition:1.5s;
+    background-color: #f5f5f5;
+}
+.testa{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    background-color: rgba(300, 0, 0, 0.3);
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    background-color: #f5f5f5;
+}
+.test7 {
+    position: absolute;
+    top: 150px;
+    left: 45%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+.Test:active .test7{
+    opacity: 1;
+    transition: all 1.3s;
+    transition-delay: 0.8s;
+}
